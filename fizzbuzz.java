@@ -19,7 +19,12 @@ public class fizzbuzz {
             else if (i % 5 == 0){
                 System.out.println("BUZZ");
             }
-        }
+
+            //ELSE IF NONE OF THE IF STATEMENTS ARE TRUE JUST PRINT THE NUMBER
+            else{
+                System.out.println(i);
+            }
+        }   
     }
 }
 
