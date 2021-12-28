@@ -10,8 +10,13 @@ public class fizzbuzz {
             }
 
             //CHECKING FOR DIVISIBILTY BY 5 AND PRINT 'BUZZ'
-            if (i % 5 == 0){
+            else if (i % 5 == 0){
                 System.out.println("BUZZ");
+            }
+
+            //CHECKING FOR DIVISIBILITY BY 3 AND 5 AND PRINT 'FIZZBUZZ'
+            else if (i % 3 == 0 && i % 5 == 0){
+                System.out.println("FIZZBUZZ");
             }
         }
     }
