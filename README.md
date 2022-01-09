@@ -1,2 +1,2 @@
 # fizzbuzz
-Creating a fizzbuzz application in Java
+THIS IS A BUZZFIZZ APPLICATION BUILT IN JAVA
