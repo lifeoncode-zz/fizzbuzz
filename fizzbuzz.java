@@ -26,5 +26,23 @@ public class fizzbuzz {
             }
         }   
     }
+    
+    /** 
+    * This is how you write doc strings
+    */
+    public static void fizzbuzz(){
+        for(int i = 0; i < 50; i++){
+            String output = "";
+            
+            
+            if(i % 3 == 0){ output += "FIZZ"; }
+            if(i % % == 0){ output += "BUZZ"; }
+            
+            
+            if(output.equals("")){ output = i; }
+            
+            System.out.println(output);
+        }
+    }
 }
 
